@@ -1,0 +1,22 @@
+Privacy Policy for ONVIF Camera
+Last updated: 2023
+
+Welcome to ONVIF Camera. We are committed to protecting the privacy of all our users. This Privacy Policy outlines our practices concerning the collection, use, and disclosure of your information when you use our application.
+
+1. Information We Do Not Collect
+ONVIF Camera does not collect any personal data from its users. We respect your privacy and are committed to protecting it. The app does not store or record any audio or video data captured through your device's camera or microphone.
+
+2. Camera and Microphone Access
+Our application requires access to your device's camera and microphone to provide ONVIF services. However, please be assured that no audio or video data is recorded, stored, or kept on your device’s storage. The access to these components is solely for the purpose of streaming and transmitting data as per the ONVIF specifications.
+
+3. Network Access
+Network access is required for transmitting audio and video data and for providing ONVIF compliant services. We do not store any information transmitted over the network nor do we use it for any purposes other than what is required to provide our services.
+
+4. Data Security
+We take the security of your information seriously. As we do not collect or store any personal data, the risk of a data breach is significantly minimized. We continuously work to enhance our security measures.
+
+5. Changes to This Privacy Policy
+We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.
+
+6. Contact Us
+If you have any questions about this Privacy Policy, please contact us at Twitter or Email.

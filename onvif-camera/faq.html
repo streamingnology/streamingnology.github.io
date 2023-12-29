@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ</title>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <main>
+        <h1 class="faq-heading">ONVIF Camera</h1>
+        <section class="faq-container">
+            <div>
+                <h1 class="faq-page">Q: Why does this app require Camera, Microphone, and Network permissions? Can I
+                    grant
+                    only some of these permissions?
+                    allow Cemera or Microphone</h1>
+                <div class="faq-body">
+                    <p>A: No, it is not possible to grant only some of these permissions for the app to function
+                        properly.
+                        This app is designed to
+                        capture and transmit audio and video data, which necessitates the use of Camera and Microphone
+                        permissions. The Camera
+                        permission is essential for accessing the device's camera to capture video. The Microphone
+                        permission is required to
+                        record audio, an integral part of the video streaming and recording functionalities.
+                        Additionally, the Network
+                        permission is crucial for the app as it provides ONVIF services, which involve transmitting the
+                        captured audio and video
+                        data over a network. This service is fundamental for remote access and control of the video
+                        stream, making the network
+                        connectivity a core component of the app’s functionality. Without all three permissions -
+                        Camera, Microphone, and
+                        Network - the app cannot perform its intended tasks, such as streaming and capturing audio-video
+                        content, and providing
+                        ONVIF compliant services to users.</p>
+                </div>
+            </div>
+            <hr class="hr-line">
+
+            <div>
+                <h1 class="faq-page">Q:Can this app run in the background?</h1>
+                <div class="faq-body">
+                    <p>A: Yes, the app is capable of running in the background, and we recommend doing so. Running in
+                        the
+                        background allows the
+                        app to reduce resource usage, particularly in terms of video rendering in the foreground.
+                        However, if you encounter any
+                        issues with the app while it's running in the background, you have the option to switch it to
+                        the foreground. To further
+                        decrease resource consumption, you can navigate to the 'Settings' or 'Help' pages within the
+                        app. This maneuver
+                        significantly lowers resource usage as these pages are less resource-intensive compared to the
+                        main streaming or
+                        capturing functionalities. Please note that when the app is in the background, avoid using other
+                        resource-heavy
+                        applications on your Android device. The Android system might close background apps to free up
+                        resources. Also, refrain
+                        from running apps that require Camera or Microphone access as they might interfere with the
+                        functionalities of our app.
+                        Ensuring these precautions can help maintain optimal performance of the app, providing
+                        uninterrupted ONVIF services
+                        whether in the foreground or background.
+                    </p>
+                </div>
+            </div>
+            <hr class="hr-line">
+
+            <div>
+                <h1 class="faq-page">Q: Does this app collect user data?</h1>
+                <div class="faq-body">
+                    <p>A: No, our app does not collect any user data. We are committed to ensuring the privacy and
+                        security of our users. This
+                        extends to not storing any audio or video data captured through the Camera or Microphone on the
+                        user's device. All audio
+                        and video data processed by the app are used solely for providing ONVIF services and are not
+                        recorded, stored, or
+                        retained on the device's storage. This policy is in place to respect user privacy and to comply
+                        with data protection
+                        regulations. Users can utilize the app's features with the assurance that their personal data
+                        and the media content
+                        captured through their device's camera and microphone are not being collected or stored by our
+                        app.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>
