@@ -148,26 +148,42 @@
             <div>
                 <h1 class="faq-page">Q:Can this app run in the background?</h1>
                 <div class="faq-body">
-                    <p>A: Yes, the app is capable of running in the background, and we recommend doing so. Running in
-                        the
-                        background allows the
-                        app to reduce resource usage, particularly in terms of video rendering in the foreground.
-                        However, if you encounter any
-                        issues with the app while it's running in the background, you have the option to switch it to
-                        the foreground. To further
-                        decrease resource consumption, you can navigate to the 'Settings' or 'Help' pages within the
-                        app. This maneuver
-                        significantly lowers resource usage as these pages are less resource-intensive compared to the
-                        main streaming or
-                        capturing functionalities. Please note that when the app is in the background, avoid using other
-                        resource-heavy
-                        applications on your Android device. The Android system might close background apps to free up
-                        resources. Also, refrain
-                        from running apps that require Camera or Microphone access as they might interfere with the
-                        functionalities of our app.
-                        Ensuring these precautions can help maintain optimal performance of the app, providing
-                        uninterrupted ONVIF services
-                        whether in the foreground or background.
+                    <p>A: Yes, the app is capable of background operation. However, we do not recommend running it in
+                        the background for
+                        extended periods. This is due to Android's system restrictions on background apps' use of the
+                        camera, which might result
+                        in no video output. The tolerance for background activity varies across different Android
+                        manufacturers. To reduce
+                        resource consumption from video rendering in the foreground, we suggest switching to the
+                        Settings or Help page when not
+                        actively using the camera features.
+                    </p>
+                </div>
+            </div>
+            <hr class="hr-line">
+
+            <div>
+                <h1 class="faq-page">Q: How do I use VLC to play video streams from my IPCamera?</h1>
+                <div class="faq-body">
+                    <p>
+                        A: To stream your IPCamera using VLC, follow these steps:
+                    </p>
+                    <p>
+                        <b>Step 1:</b> Launch the IPCamera by tapping 'Start,' then navigate to the 'Help' page. Copy
+                        the rtsp
+                        URL provided under
+                        'Camera Live Stream.' Typically, this URL will look something like:
+                        rtsp://192.168.0.18:9554/live.
+                    </p>
+                    <p>
+                        <b>Step 2:</b> Open the VLC player. Go to 'Media' -> 'Open Network Stream' -> 'Network' tab, and
+                        paste
+                        the copied rtsp URL into
+                        the field provided. Click 'Play' to begin streaming. If you have enabled authentication in the
+                        IPCamera's 'Security'
+                        settings, VLC will prompt a dialogue box for the username/password you set up. Enter these
+                        credentials to access the
+                        stream.
                     </p>
                 </div>
             </div>
